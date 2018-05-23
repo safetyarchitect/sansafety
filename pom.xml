@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>shougang.guigang.sanzuoyequ</groupId>
+		<artifactId>safety-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>safety-common</artifactId>
+
+	<!-- add dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+
+		<!-- apache tool discreteness -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+		</dependency>
+
+		<!-- Jacson json handle tool package -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
+		<!-- httpclient -->
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+
+		<!-- unit test -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+		<!-- log handle -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/net.oschina.zcx7878/fastdfs-client-java -->
+		<dependency>
+			<groupId>org.csource</groupId>
+			<artifactId>fastdfs-client-java</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build />
+</project>
